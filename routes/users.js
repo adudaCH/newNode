@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 router.get("/", (req,res)=>{
-    res.sendFile("ALL USERS");
+    res.send("ALL USERS");
 });
 
 router.get("/:userId",(req,res)=>{
