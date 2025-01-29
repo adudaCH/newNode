@@ -8,7 +8,7 @@ router.get("/", (req,res)=>{
 });
 
 router.get("/:userId",(req,res)=>{
-    res.sendFile(req.params);
+    res.send(req.params);
 });
 
 router.post("/",(req,res)=>{
